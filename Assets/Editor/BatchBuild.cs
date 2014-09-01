@@ -9,8 +9,8 @@ public class BatchBuild {
 	// keystore Path
 	private static string keystorePath = "batch_build/Android/Sample001.keystore";
 	// keystoreのパスワードはUnityEditorで設定できるが保持されないのでここに記述
-	private static string keystorePass = "hogehoge";
-	private static string keyaliasPass = "hogehoge";
+	private static string keystorePass = "123456";
+	private static string keyaliasPass = "123456";
 	
 	
 	// リリースビルド
@@ -22,7 +22,8 @@ public class BatchBuild {
 	}
 
 	// 開発用ビルド
-	public static void DevelopmentBuild(){
+	public static void DevelopmentBuild()
+	{
 		Debug.Log("DevelopmentBuild");
 		//if ( BuildiOS(false)==false ) EditorApplication.Exit(1);
 		if ( BuildAndroid(false)==false ) EditorApplication.Exit(1);
