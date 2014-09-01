@@ -5,7 +5,7 @@ using System.Collections;
 public class BatchBuild {
 
 	// ビルド対象のシーン
-	private static string[] scene = {"Assets/_Scenes/Battle001.unity"};
+	private static string[] scene = {"Assets/Scenes/Battle001.unity"};
 	// keystore Path
 	private static string keystorePath = "batch_build/Android/Sample001.keystore";
 	// keystoreのパスワードはUnityEditorで設定できるが保持されないのでここに記述
