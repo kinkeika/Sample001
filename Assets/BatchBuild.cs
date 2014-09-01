@@ -5,9 +5,9 @@ using System.Collections;
 public class BatchBuild {
 
 	// ビルド対象のシーン
-	private static string[] scene = {"Assets/_Scenes/PiggCube.unity"};
+	private static string[] scene = {"Assets/_Scenes/Battle001.unity"};
 	// keystore Path
-	private static string keystorePath = "batch_build/Android/piggcube.keystore";
+	private static string keystorePath = "batch_build/Android/Battle001.keystore";
 	// keystoreのパスワードはUnityEditorで設定できるが保持されないのでここに記述
 	private static string keystorePass = "hogehoge";
 	private static string keyaliasPass = "hogehoge";
@@ -74,7 +74,7 @@ public class BatchBuild {
 		// ビルド
 		// シーン、出力ファイル（フォルダ）、ターゲット、オプションを指定
 		string errorMsg =
-			BuildPipeline.BuildPlayer(scene,"PiggCube.apk",BuildTarget.Android,opt);
+			BuildPipeline.BuildPlayer(scene,"Battle001.apk",BuildTarget.Android,opt);
 		// errorMsgがない場合は成功
 		if ( string.IsNullOrEmpty(errorMsg) ){
 			Debug.Log("Build( Android ) Success.");
