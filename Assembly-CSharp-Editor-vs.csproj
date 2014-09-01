@@ -54,6 +54,7 @@
      <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyTouchMenu.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasytouchCallBack.cs" />
      <Compile Include="Assets\EasyTouch\Plugins\Editor\HTEditorToolKit.cs" />
+     <Compile Include="Assets\Editor\BatchBuild.cs" />
      <Compile Include="Assets\Editor\BundleVersionChecker\AbstractBundleVersionGenerator.cs" />
      <Compile Include="Assets\Editor\BundleVersionChecker\BundleVersionChecker.cs" />
      <Compile Include="Assets\Editor\BundleVersionChecker\ConfigBundleVersionChecker.cs" />
