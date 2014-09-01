@@ -16,7 +16,7 @@ public class BatchBuild {
 	// リリースビルド
 	public static void ReleaseBuild()
 	{
-		if ( BuildiOS(true)==false ) EditorApplication.Exit(1);
+		//if ( BuildiOS(true)==false ) EditorApplication.Exit(1);
 		if ( BuildAndroid(true)==false ) EditorApplication.Exit(1);
 		EditorApplication.Exit(0);
 	}
