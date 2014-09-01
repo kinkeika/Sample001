@@ -24,7 +24,7 @@ public class BatchBuild {
 	// 開発用ビルド
 	public static void DevelopmentBuild(){
 		Debug.Log("DevelopmentBuild");
-		if ( BuildiOS(false)==false ) EditorApplication.Exit(1);
+		//if ( BuildiOS(false)==false ) EditorApplication.Exit(1);
 		if ( BuildAndroid(false)==false ) EditorApplication.Exit(1);
 		EditorApplication.Exit(0);
 	}
