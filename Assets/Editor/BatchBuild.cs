@@ -7,7 +7,7 @@ public class BatchBuild {
 	// ビルド対象のシーン
 	private static string[] scene = {"Assets/_Scenes/Battle001.unity"};
 	// keystore Path
-	private static string keystorePath = "batch_build/Android/Battle001.keystore";
+	private static string keystorePath = "batch_build/Android/Sample001.keystore";
 	// keystoreのパスワードはUnityEditorで設定できるが保持されないのでここに記述
 	private static string keystorePass = "hogehoge";
 	private static string keyaliasPass = "hogehoge";

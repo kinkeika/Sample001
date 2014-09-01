@@ -10,7 +10,7 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: vt
   productName: Unity3DBattleSample002
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -98,7 +98,7 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: 
+  AndroidKeystoreName: batch_build/Android/Sample001.keystore
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
